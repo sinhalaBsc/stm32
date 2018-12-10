@@ -1,0 +1,17 @@
+#stm32 instrolation on fedora
+
+#frist you shuould have java in your computer 
+#for check 
+$ alternatives --display java
+
+#if not then install
+$ sudo dnf install java-1.8.0-openjdk
+
+#then goto where have stm32.exe(SetupSTM32CubeMX-x.x.x.exe) file
+#to intall exe file
+$ java -jar SetupSTM32CubeMX-5.0.0.exe
+
+#to open STM32CubeMX
+#go where did you install STM32CubeMX
+$ cd STM32CubeMX  #defalt at home/STM32CubeMX
+$ java -jar STM32CubeMX
